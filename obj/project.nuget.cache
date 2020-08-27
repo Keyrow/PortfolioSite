@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V2awBjgUksb5MQLSgWiA97UGGqLaucqPDnjlwSV+pN/R+Zm2bheLfDnm8m5DawZSrA3TNhBTTBLp9gKsHpJLBw==",
+  "dgSpecHash": "YrtmPRYj0Bt11WlhibdAw4MHIPq7Lj5TfYa8wVZ9ecc7IRoKPlbrxwm79dXuy/YMLUXcAZSZ2TMLdBb5rDgDvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\CSharp\\Personal\\PersonalSite\\PersonalSite.csproj",
+  "projectFilePath": "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\PortfolioSite\\PersonalSite\\PersonalSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SongKim2\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\SongKim2\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

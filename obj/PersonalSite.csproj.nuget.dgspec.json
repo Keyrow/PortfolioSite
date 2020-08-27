@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\CSharp\\Personal\\PersonalSite\\PersonalSite.csproj": {}
+    "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\PortfolioSite\\PersonalSite\\PersonalSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\CSharp\\Personal\\PersonalSite\\PersonalSite.csproj": {
+    "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\PortfolioSite\\PersonalSite\\PersonalSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\CSharp\\Personal\\PersonalSite\\PersonalSite.csproj",
+        "projectUniqueName": "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\PortfolioSite\\PersonalSite\\PersonalSite.csproj",
         "projectName": "PersonalSite",
-        "projectPath": "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\CSharp\\Personal\\PersonalSite\\PersonalSite.csproj",
+        "projectPath": "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\PortfolioSite\\PersonalSite\\PersonalSite.csproj",
         "packagesPath": "C:\\Users\\SongKim2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\CSharp\\Personal\\PersonalSite\\obj\\",
+        "outputPath": "C:\\Users\\SongKim2\\Desktop\\CodingDojo\\PortfolioSite\\PersonalSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
