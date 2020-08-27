@@ -1,0 +1,59 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model PersonalSite.Models.ContactFormModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Contact Me</title>
+</head>
+<body>
+<section class="contactme">
+    <header>
+        <div class="container">
+            <div class="row">
+                <nav class="homeNav">
+                    <ul>
+                        <li><a class="navlink" href="/dashboard">Home</a></li>
+                        <li><a class="navlink" href="/aboutMe">About Me</a></li>
+                        <li><a class="navlink" href="/resume">Resume</a></li>
+                        <li><a class="navlink" href="/logout">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+<h3 class="header-title">Contact Me</h3>
+<form asp-action="FormHandler" asp-controller="Contact" method="post">
+    <div class="name-block form-group row">
+        <label asp-for="Name" class="labels col-sm-1 col-form-label">Name</label>
+        <div class="col-sm-3">
+            <input asp-for="Name" type="text" class="form-control"  placeholder="Please Enter Your Full Name">
+        </div>
+    </div>
+
+    <div class="email-block form-group row">
+        <label asp-for="Email" class="labels col-sm-1 col-form-label">Email</label>
+        <div class="col-sm-3">
+            <input asp-for="Email" type="text" class="form-control" placeholder="Please Enter Your Email">
+        </div>
+    </div>
+
+    <div class="message-block form-group row">
+        <label asp-for="Message" class="labels col-sm-1 col-form-label">Message</label>
+        <div class="col-sm-3">
+            <textarea asp-for="Message" type="text" class="contact-message form-control" placeholder="Your Message here!"></textarea>
+        </div>
+    </div>
+    <div class="button-block">
+        <button class="button btn btn-success col-sm-1">Send</button>
+    </div>
+</form>
+</section>
+</body>
+</html>

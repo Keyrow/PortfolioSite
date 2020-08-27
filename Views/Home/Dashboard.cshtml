@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Song Kim's Portfolio</title>
+    @using PersonalSite.Models
+    @model DashboardModel
+    @using System.Linq
+</head>
+<body>
+    <section class="dashboard">
+        <header>
+            <div class="container">
+                <div class="row">
+                        <nav class="homeNav">
+                            <ul>
+                                <li><a class="navlink" href="/aboutMe">About Me</a></li>
+                                <li><a class="navlink" href="/resume">Resume</a></li>
+                                <li><a class="navlink" href="/ContactMe">Contact Me</a></li>
+                                <li><a class="navlink" href="/logout">Logout</a></li>
+                            </ul>
+                        </nav>
+                </div>
+            </div>
+        </header>
+    <div class="container">
+        <div class="row main">
+            <div class="col-12">
+                <img class="selfie" src="~/images/portrait.png" alt="selfie">
+                <p class="d-para">
+                    Song Min Kim, Full Stack Developer: Python w/ Django, C# w/ ASP.Net, React w/ MongoDB
+                </p>
+            </div>
+        </div>
+        <div class="footer row text-center">
+            <div class="col-lg-1 col-md-4 col-sm-12">
+                <a href="https://github.com/Keyrow" target="_blank" rel="noopener noreferrer"><img class="grow-effect" src="~/images/github.png" alt="github"></a>
+            </div>                    
+            <div class="col-lg-1 col-md-4 col-sm-12">
+                <a href="https://www.linkedin.com/in/song-kim-31161b4a/" target="_blank" rel="noopener noreferrer"><img class="grow-effect" src="~/images/linkedin.png" alt="linkedin"></a>
+            </div>
+            <div class="col-lg-1 col-md-4 col-sm-12">
+                <a href="https://www.facebook.com/song.kim.397" target="_blank" rel="noopener noreferrer"><img class="grow-effect" src="~/images/facebook.png" alt="facebook"></a>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
