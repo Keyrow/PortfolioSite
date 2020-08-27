@@ -8,12 +8,12 @@
 <form class="form" asp-action="LoginUser" asp-controller="User" method="post">
     <tr>
         <td><label asp-for="LogEmail">Email:</label></td>
-        <td><input value="Song223@gmail.com" asp-for="LogEmail" type="text" name="LogEmail"></td>
+        <td><input asp-for="LogEmail" type="text" name="LogEmail"></td>
         <td><span asp-validation-for="LogEmail"></span></td>
     </tr>
     <tr>
         <td><label asp-for="LogPassword">Password:</label></td>
-        <td><input value="123456789" asp-for="LogPassword" type="password" name="LogPassword"></td>
+        <td><input asp-for="LogPassword" type="password" name="LogPassword"></td>
         <td><span asp-validation-for="LogPassword"></span></td>
     </tr>
     <tr>
